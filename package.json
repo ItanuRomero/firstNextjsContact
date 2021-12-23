@@ -1,0 +1,25 @@
+{
+  "name": "firstnextjscontact",
+  "version": "1.0.0",
+  "description": "Seguindo a playlist de desenvolvimento moderno de [Filipe Deschamps](https://www.youtube.com/playlist?list=PLMdYygf53DP7FJzPslLnmqp0QylyFfA8a), estudarei esses temas neste repositório para entender melhor como funciona a web moderna.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItanuRomero/firstNextjsContact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItanuRomero/firstNextjsContact/issues"
+  },
+  "homepage": "https://github.com/ItanuRomero/firstNextjsContact#readme",
+  "dependencies": {
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
