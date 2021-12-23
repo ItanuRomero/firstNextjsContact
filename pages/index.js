@@ -38,6 +38,11 @@ function Home() {
                 <a>Usando Server Side Props</a>
             </Link>
             </div>
+            <div>
+            <Link href="/incremental/10">
+                <a>Usando Geração incremental de páginas estáticas</a>
+            </Link>
+            </div>
         </>
     )
 }
