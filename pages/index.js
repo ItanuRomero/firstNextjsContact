@@ -20,7 +20,22 @@ function Home() {
             </div>
             <div>
             <Link href="/api/github">
-                <a>Meu usuário no github</a>
+                <a>Meu usuário no github via API</a>
+            </Link>
+            </div>
+            <div>
+            <Link href="/dynamic-params/10">
+                <a>Usando parâmetros dinâmicos</a>
+            </Link>
+            </div>
+            <div>
+            <Link href="/api/dynamic-params/10">
+                <a>Usando parâmetros dinâmicos com API</a>
+            </Link>
+            </div>
+            <div>
+            <Link href="/server-side-rendering/10">
+                <a>Usando Server Side Props</a>
             </Link>
             </div>
         </>
