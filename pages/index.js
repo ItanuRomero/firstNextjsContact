@@ -4,12 +4,15 @@ function Home() {
     return (
         <>
             <h1>Home</h1>
-            <Link href="/counter">
+            <div><Link href="/counter">
                 <a>Contador</a>
             </Link>
+            </div>
+            <div>
             <Link href="/time">
                 <a>Tempo</a>
             </Link>
+            </div>
         </>
     )
 }
