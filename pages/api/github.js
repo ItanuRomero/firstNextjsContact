@@ -13,10 +13,12 @@ async function getGithubUser(request, response) {
         followers: userResponseJson.followers,
         blog: userResponseJson.blog
     }
-
+    const dateUpdate = new Date();
+    //response.setHeader('Cache-control', 's-maxage=10, stale-while-revalidate');
     response.json({
-        user: myGithubUser
-    })
+        user: myGithubUser,
+        lastTimeUpdated: dateUpdate.toGMTString()
+    });
 }
 
 export default getGithubUser;
