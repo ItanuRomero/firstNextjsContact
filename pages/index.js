@@ -13,6 +13,16 @@ function Home() {
                 <a>Tempo</a>
             </Link>
             </div>
+            <div>
+            <Link href="/api/time">
+                <a>Tempo porém em API</a>
+            </Link>
+            </div>
+            <div>
+            <Link href="/api/github">
+                <a>Meu usuário no github</a>
+            </Link>
+            </div>
         </>
     )
 }
