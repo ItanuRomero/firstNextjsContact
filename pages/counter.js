@@ -1,8 +1,12 @@
+import Link from "next/link";
 import { useState } from "react";
 
 function Counter() {
     return (
         <>
+            <Link href='/'>
+                <a>Home</a>
+            </Link>
             <h1>Contador</h1>
             <Contador />
         </>
