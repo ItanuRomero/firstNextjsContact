@@ -16,7 +16,7 @@ async function getGithubUser(request, response) {
     const dateUpdate = new Date();
     response.setHeader('Cache-control', 's-maxage=10, stale-while-revalidate');
     response.json({
-        user: myGithubUser,
+        myGithubUser: myGithubUser,
         lastTimeUpdated: dateUpdate.toGMTString()
     });
 }
